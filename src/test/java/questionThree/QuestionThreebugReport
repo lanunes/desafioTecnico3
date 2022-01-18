@@ -1,0 +1,73 @@
+Reportando Inconsistências
+
+Inconsistência #1
+A aplicação NÃO ARMAZENA os computadores inseridos
+
+Comportamento Atual
+- Acesse a aplicação
+- Clique no Botão "Add a new computer"
+- Preencha o formulário para inserção de um novo computador
+- Clique no botão "Create This Computer"
+- A mensagem "Done ! Computer has been created" é apresentada
+- O número de Computadores registrados permanece inalterado. Ao filtrar pelo botão "Filter By name" o computador supostamente inserido não é encontrado.
+
+Comportamento Esperado
+- O computador inserido deveria aparecer na lista e na busca pelo filtro.
+
+Dados de entrada
+Computer name: Libretto
+Introduced: 1958-01-01
+Discontinued: 1958-01-30
+Company: RCA
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+17/01/2022 - 20 hs
+
+Evidências
+Arquivos: Inconsistencia1ScreenOne.png/ Inconsistencia1ScreenTwo.png/ Inconsistencia1ScreenThree.png
+========================================================================================================================
+Inconsistência #2
+A aplicação NÃO SALVA A DELEÇÃO dos computadores
+
+Comportamento Atual
+- Acesse a aplicação
+- Escolha um dos computadores Listados
+- Clique no botão "Delete This Computer"
+- A mensagem "Done ! Computer has been deleted" é apresentada retornando à página inicial
+- O número de Computadores registrados permanece inalterado. Ao filtrar pelo botão "Filter By name" o computador supostamente deletado é encontrado.
+
+Comportamento Esperado
+- O computador deletado não deveria aparecer na lista nem na busca pelo filtro.
+
+Dados de entrada
+- Computer name: "ARRA"
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+17/01/2022 - 20 hs
+
+Evidências
+Arquivos: Inconsistencia2ScreenOne.png/ Inconsistencia2ScreenTwo.png

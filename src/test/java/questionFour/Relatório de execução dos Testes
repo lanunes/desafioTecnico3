@@ -1,0 +1,9 @@
+Relatório de Execução de Testes
+
+  - Os Testes forma realizados utilizando o navegador Google Chrome versão 96 entre os dias 17 e 18/01/2022.
+
+  - A automação dos testes de Adição e Deleção obteve êxito, pois a validação desses processos se baseou na
+    mensagem de sucesso dos mesmos.
+
+  - Entretanto, foi observado que a aplicação não salva essas interações e isso foi aproveitado para responder à
+  pergunta 3 do desafio técnico, referente a Reporte de Bugs.

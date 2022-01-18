@@ -1,0 +1,13 @@
+Validação da API - cenários de Teste
+
+Cenário 1 - Login válido utilizando o Método GET
+
+Cenário 2 - Login ou senha incorretos utilizando o Método PUT
+
+Cenário 3 - Campos obrigatórios em branco utilizando o Método DELETE
+
+Cenário 4 - Limite de tentativas utlizando o método PATCH
+
+OBS: Não foram criados casos de Teste, pois a questão se referiu apenas a Cenários de Teste que
+trata de um conceito mais amplo e Resumido.
+

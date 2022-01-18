@@ -1,0 +1,53 @@
+Cenário: Tentativa de Login Inválido
+
+Caso de Teste 01 - Login válido e Senha Inválida
+Dado que o usuário informa Login Válido
+E informa senha Inválida
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “Login ou senha incorretos”;
+
+Caso de Teste 02 - Login inválido e Senha Válida
+Dado que o usuário informa Login inválido
+E informa senha válida
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “Login ou senha incorretos”;
+
+Caso de Teste 03 - Login e Senha Inválidas
+Dado que o usuário informa Login inválido
+E informa senha inválida
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “Login ou senha incorretos”;
+
+=======================================================================================================================
+Cenário: Campos obrigatórios Não preenchidos
+
+Caso de Teste 01 - Login Preenchido e Senha Não Preenchida
+Dado que o usuário informa email
+E não informa a senha
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “O campo senha é obrigatório”;
+
+Caso de Teste 02 - Login Não Preenchido e Senha Preenchida
+Dado que o usuário não informa email
+E informa a senha
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “O campo email é obrigatório”;
+
+Caso de Teste 03 - Login e Senha Não Preenchidos
+Dado que o usuário não informa email
+E não informa senha
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “Os campos email e senha são obrigatórios”;
+
+=======================================================================================================================
+Cenário: Limite de tentativas com dados inválidos excedida
+
+Caso de Teste 01 - Terceira tentativa consecutiva de login com dados inválidos
+Dado que o usuário tentou pela terceira vez consecutiva efetuar login com email e senha inválidos
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “Usuário bloqueado, contate o administrador do sistema para o desbloqueio”;
+
+Caso de Teste 01 - Quarta tentativa consecutiva de login com dados inválidos
+Dado que o usuário tentou pela quarta vez consecutiva efetuar login com email e senha inválidos
+Quando clicar no botão Entrar
+Então o sistema deverá apresentar a mensagem: “Usuário bloqueado, contate o administrador do sistema para o desbloqueio”;
